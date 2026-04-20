@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MINISO INDIA</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    .font-roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    }
+
+    .font-montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    }
+</style>
 </head>
-<body class="m-0 font-Roboto,sans">
+<body class="m-0 font-roboto,sans">
 
     <header>
         <div class="text-center bg-red-600 text-white p-2">
@@ -20,13 +36,13 @@
     <nav class="flex justify-between px-5 py-5">
         <div><img src="logo.png" alt="MINISO Logo" class="w-10"></div>
         <div class="pt-2">
-            <a href="#" class="mx-5 no-underline text-black font-montserrat">Home</a>
-            <a href="#" class="mx-5 no-underline text-black font-montserrat">Products</a>
-            <a href="#" class="mx-5 no-underline text-black font-montserrat">Our Blogs</a>
-            <a href="#" class="mx-5 no-underline text-black font-montserrat">Store Locator</a>
-            <a href="#" class="mx-5 no-underline text-black font-montserrat">About MINISO</a>
-            <a href="#" class="mx-5 no-underline text-black font-montserrat">Documents</a>
-            <a href="#" class="mx-5 no-underline text-black font-montserrat">Contact Us</a>
+            <a href="#" class="px-5 no-underline text-[#333333] font-roboto">Home</a>
+            <a href="#" class="px-5 no-underline text-[#333333] font-roboto">Products</a>
+            <a href="#" class="px-5 no-underline text-[#333333] font-roboto">Our Blogs</a>
+            <a href="#" class="px-5 no-underline text-[#333333] font-roboto">Store Locator</a>
+            <a href="#" class="px-5 no-underline text-[#333333] font-roboto">About MINISO</a>
+            <a href="#" class="px-5 no-underline text-[#333333] font-roboto">Documents</a>
+            <a href="#" class="px-5 no-underline text-[#333333] font-roboto">Contact Us</a>
         </div>
     </nav>
 
@@ -35,76 +51,76 @@
 
     
     <section class="my-5 text-center">
-        <h2 class="text-[30px] font-['Montserrat'] font-semibold text-[#333333] p-10">TOP CATEGORIES</h2>
+        <h2 class="text-[30px] tracking-wide font-montserrat font-semibold text-[#333333] p-10">TOP CATEGORIES</h2>
         <div class="flex justify-around flex-wrap">
-            <div class="w-1/5 bg-red-600 text-white">
-                <img src="cat1.png" alt="Category 1" class="w-full">
-                <div class="p-2 font-semibold">BAGS AND ACCESSORIES</div>
+            <div class="w-1/5 text-white overflow-hidden">
+                <img src="cat1.png" alt="Bags and Accessories" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">BAGS AND ACCESSORIES</div>
             </div>
-            <div class="w-1/5 bg-red-600 text-white">
-                <img src="cat2.png" alt="Category 2" class="w-full">
-                <div class="p-2 font-semibold">DAILY LIFE PRODUCTS</div>
+            <div class="w-1/5 bg-red-600 text-white overflow-hidden">
+                <img src="cat2.png" alt="Daily Life Products" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">DAILY LIFE PRODUCTS</div>
             </div>
-            <div class="w-1/5 bg-red-600 text-white ">
-                <img src="cat3.png" alt="Category 3" class="w-full">
-                <div class="p-2 font-semibold">DIGITAL AND ELECTRONICS</div>
+            <div class="w-1/5 bg-red-600 text-white overflow-hidden">
+                <img src="cat3.png" alt="Digital and Electronics" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">DIGITAL AND ELECTRONICS</div>
             </div>
-            <div class="w-1/5 bg-red-600 text-white ">
-                <img src="cat4.png" alt="Category 4" class="w-full">
-                <div class="p-2 font-semibold">FASHION ACCESSORIES</div>
+            <div class="w-1/5 bg-red-600 text-white overflow-hidden">
+                <img src="cat4.png" alt="Fashion Accessories" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">FASHION ACCESSORIES</div>
             </div>
         </div>
     </section>
     <hr>
 
     <section class="my-5 text-center">
-        <h2 class="text-[30px] font-['Montserrat'] font-semibold text-[#333333] p-10">NEW ARRIVALS</h2>
+        <h2 class="text-[30px] font-montserrat font-semibold text-[#333333] p-10">NEW ARRIVALS</h2>
         <div class="flex justify-around flex-wrap">
-            <div class="w-1/5 bg-red-600 text-white">
-                <img src="arriv1.png" alt="Arrival 1" class="w-full">
-                <div class="p-2 font-semibold">SUSHI KITTEN PLUSH TOY</div>
+            <div class="w-1/5 bg-red-600 text-white overflow-hidden">
+                <img src="arriv1.png" alt="Sushi Kitten Plush Toy" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">SUSHI KITTEN PLUSH TOY</div>
             </div>
-            <div class="w-1/5 bg-red-600 text-white">
-                <img src="arriv2.png" alt="Arrival 2" class="w-full">
-                <div class="p-2 font-semibold">SUSHI KITTEN PLUSH TOY</div>
+            <div class="w-1/5 bg-red-600 text-white overflow-hidden">
+                <img src="arriv2.png" alt="Sushi Kitten Plush Toy" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">SUSHI KITTEN PLUSH TOY</div>
             </div>
-            <div class="w-1/5 bg-red-600 text-white">
-                <img src="arriv3.png" alt="Arrival 3" class="w-full">
-                <div class="p-2 font-semibold">SUSHI KITTEN PLUSH TOY</div>
+            <div class="w-1/5 bg-red-600 text-white overflow-hidden">
+                <img src="arriv3.png" alt="Sushi Kitten Plush Toy" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">SUSHI KITTEN PLUSH TOY</div>
             </div>
-            <div class="w-1/5 bg-red-600 text-white">
-                <img src="arriv4.png" alt="Arrival 4" class="w-full">
-                <div class="p-2 font-semibold">SUSHI KITTEN PLUSH TOY</div>
+            <div class="w-1/5 bg-red-600 text-white overflow-hidden">
+                <img src="arriv4.png" alt="Sushi Kitten Plush Toy" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">SUSHI KITTEN PLUSH TOY</div>
             </div>
         </div>
     </section>
     <hr>
 
     <section class="my-5 text-center">
-        <h2 class="text-[30px] font-['Montserrat'] font-semibold text-[#333333] p-10">TOP SELLERS</h2>
+        <h2 class="text-[30px] font-montserrat font-semibold text-[#333333] p-10">TOP SELLERS</h2>
         <div class="flex gap-2 px-2 py-5">
         
-            <div class="w-[48%] h-full mx-5 my-10 bg-red-600 text-white text-sm">
-                <img src="seller1.png" alt="Makeup Brush" class="w-full">
-                <div class="p-2 font-semibold">3-IN-1 MAKEUP BRUSH</div>
+            <div class="w-[48%] h-full mx-5 my-10 bg-red-600 text-white text-sm overflow-hidden">
+                <img src="seller1.png" alt="Makeup Brush" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">3-IN-1 MAKEUP BRUSH</div>
             </div>
             
             <div class="grid grid-cols-2 gap-2 flex-1 mx-5 my-8">
-                <div class="bg-red-600 text-white">
-                    <img src="seller2.png" alt="Eye Masks" class="w-full">
-                    <div class="p-2 font-semibold">EYE MASKS</div>
+                <div class="bg-red-600 text-white overflow-hidden">
+                    <img src="seller2.png" alt="Eye Masks" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                    <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">EYE MASKS</div>
                 </div>
-                <div class="bg-red-600 text-white">
-                    <img src="seller3.png" alt="Scented Candles" class="w-full">
-                    <div class="p-2 font-semibold">SCENTED CANDLES</div>
+                <div class="bg-red-600 text-white overflow-hidden">
+                    <img src="seller3.png" alt="Scented Candles" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                    <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">SCENTED CANDLES</div>
                 </div>
-                <div class="bg-red-600 text-white">
-                    <img src="seller4.png" alt="Cosmetics" class="w-full">
-                    <div class="p-2 font-semibold">COSMETICS</div>
+                <div class="bg-red-600 text-white overflow-hidden">
+                    <img src="seller4.png" alt="Cosmetics" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                    <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">COSMETICS</div>
                 </div>
-                <div class="bg-red-600 text-white">
-                    <img src="seller5.png" alt="Sippers" class="w-full">
-                    <div class="p-2 font-semibold">SIPPERS</div>
+                <div class="bg-red-600 text-white overflow-hidden">
+                    <img src="seller5.png" alt="Sippers" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                    <div class="p-2 font-semibold text-[14px] font-roboto bg-[#D8262F]">SIPPERS</div>
                 </div>
             </div>
         </div>
@@ -112,7 +128,7 @@
     <hr>
 
     <section class="my-5 text-center">
-        <h2 class="text-[30px] font-['Montserrat'] font-semibold text-[#333333] p-10">ABOUT MINISO</h2>
+        <h2 class="text-[30px] font-montserrat font-semibold text-[#333333] p-10">ABOUT MINISO</h2>
         <p class="text-sm text-[#666666]">We're here to help today's youth discover affordable little joys.
             <br><br> MINISO is a international product retailer, offering high quality household goods, cosmetics and food at affordable prices.</p>
     </section>
@@ -124,13 +140,13 @@
     <section class="my-5">
         <div class="flex justify-around flex-wrap">
             <div class="w-[30%] text-center">
-                <h2 class="text-[20px] font-['Montserrat'] font-semibold text-[#333333] p-10">THE NEWSLETTER</h2>
+                <h2 class="text-[20px] font-montserrat font-semibold text-[#333333] p-10">THE NEWSLETTER</h2>
                 <p><b>Get the latest news & updates from Miniso</b></p>
                 <input type="email" placeholder="Enter email" class="border p-1"><br><br>
                 <button class="bg-red-600 text-white px-4 py-2">Submit</button>
             </div>
             <div class="w-[70%] text-center">
-                <h2 class="text-[30px] font-['Montserrat'] font-semibold text-[#333333] p-10">WHAT CUSTOMER SAYS</h2>
+                <h2 class="text-[30px] font-montserrat font-semibold text-[#333333] p-10">WHAT CUSTOMER SAYS</h2>
                 <img src="avatar.png" class="w-24 mx-auto" alt="avatar icon"><br>
                 <h3 class="font-bold">SHIVANI</h3>
                 <p>I am always thrilled to shop at MINISO. Quality products, cute designs and great prices!</p>
@@ -140,29 +156,29 @@
     <hr>
 
     <section class="my-5 text-center">
-        <h2 class="text-[30px] font-['Montserrat'] font-semibold text-[#333333] p-10">LATEST FROM BLOGS</h2>
+        <h2 class="text-[30px] font-montserrat font-semibold text-[#333333] p-10">LATEST FROM BLOGS</h2>
         <div class="flex flex-wrap justify-between">
-            <div class="w-[23%] text-black border border-gray-200 p-6">
-                <img src="blog1.png" alt="Miniso" class="w-full">
-                <p class="font-semibold font-['Montserrat'] text-[18px] text-[#333333] leading-none mb-3 mt-7">Get To Know About Miniso India Amazing Team</p>
+            <div class="w-[23%] text-black border border-gray-200 p-6 overflow-hidden">
+                <img src="blog1.png" alt="Miniso" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <p class="font-semibold font-montserrat text-[18px] text-[#333333] leading-none mb-3 mt-7">Get To Know About Miniso India Amazing Team</p>
                 <p class="text-sm text-[#666666]">Meet our two Superheroes of Operations Team, Operation Supervisors</p>
                 <p class="text-sm text-[#666666]">They have shown some immense growth and hard work since the time they have been with Miniso.</p>
                 <p class="text-sm text-[#666666]">Let us take you through their experience one by one.</p>
             </div>
-            <div class="w-[23%] text-black border border-gray-200 p-6">
-                <img src="blog2.png" alt="Marvel Collaboration" class="w-full">
-                <p class="font-semibold font-['Montserrat'] text-[18px] text-[#333333] leading-none mb-3 mt-7">MINISO Cooperates With Marvel Studios, Releasing 2000 Superheroes Peripheral Products</p>
+            <div class="w-[23%] text-black border border-gray-200 p-6 overflow-hidden">
+                <img src="blog2.png" alt="Marvel Collaboration" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
+                <p class="font-semibold font-montserrat text-[18px] text-[#333333] leading-none mb-3 mt-7">MINISO Cooperates With Marvel Studios, Releasing 2000 Superheroes Peripheral Products</p>
                 <p class="text-sm text-[#666666]">The world's well-known retail brand MINISO officially announced the cooperation with globally renowned top IP Marvel to develop a series of peripheral products, which will be put on sale in over 100 countries.</p>
                 <p class="text-sm text-[#666666]">The MINISO x MARVEL products exhibition area was set up at the new product release meeting. There were as many as 2000 M...</p>
             </div>
-            <div class="w-[23%] text-black border border-gray-200 p-6">
-                <img src="blog3.png" alt="Design Award" class="w-full">
+            <div class="w-[23%] text-black border border-gray-200 p-6 overflow-hidden">
+                <img src="blog3.png" alt="Design Award" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
                 <p class="font-semibold font-['Montserrat'] text-[18px] text-[#333333] leading-none mb-3 mt-7">Miniso Won Big At The German IF Design Awards 2019</p>
                 <p class="text-sm text-[#666666]">The German iF Design awards 2019 recently bestowed MINISO, the world's most trusted designer lifestyle brand, for their creative innovation in three product categories.</p>
                 <p class="text-sm text-[#666666]">MINISO's Kendama Gel Pen, Round Foldable Lamp and U-Fan stood out amongst 6,000+ entries from over 50 countries and won at the international awards.</p>
             </div>
-            <div class="w-[23%] text-black border border-gray-200 p-6">
-                <img src="blog4.png" alt="Spring Clean" class="w-full">
+            <div class="w-[23%] text-black border border-gray-200 p-6 overflow-hidden">
+                <img src="blog4.png" alt="Spring Clean" class="w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105">
                 <p class="font-semibold font-['Montserrat'] text-[18px] text-[#333333] leading-none mb-3 mt-7">It's Time To Spring Clean Your Office Desk And Boost Productivity!</p>
                 <p class="text-sm text-[#666666]">Spring season is just around the corner and we are about to gear up for brighter mornings, lighter evening and a whole new lease of motivation!</p>
                 <br>
@@ -183,33 +199,33 @@
             </div>
             <div class="w-1/5">
                 <h3 class="text-[20px]text-[#333333] mb-4 font-['Montserrat']">MINISO Products</h3>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Bags And Accessories</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Daily Life Products</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">December Offers</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Digital And Electronics</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Fashion Accessories</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Health And Beauty</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Household Items</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Toy Series</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Bags And Accessories</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Daily Life Products</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">December Offers</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Digital And Electronics</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Fashion Accessories</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Health And Beauty</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Household Items</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Toy Series</a></p>
             </div>
             <div class="w-1/5">
                 <h3 class="text-[20px]text-[#333333] mb-4 font-['Montserrat']">Quick Links</h3>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Home</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Career</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Our Blogs</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Store Locator</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Contact Us</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Home</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Career</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Our Blogs</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Store Locator</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Contact Us</a></p>
             </div>
             <div class="w-1/5">
                 <h3 class="text-[20px]text-[#333333] mb-4 font-['Montserrat']">About MINISO</h3>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">About Us</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">E-Waste Management</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Exchange Policy</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Privacy Policy</a></p>
-                <p><a href="#" class="text-black no-underline text-[14px] font-['Roboto'] text-gray-500">Sitemap</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">About Us</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">E-Waste Management</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Exchange Policy</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Privacy Policy</a></p>
+                <p><a href="#" class="text-black no-underline text-[14px] font-roboto text-gray-500">Sitemap</a></p>
             </div>
         </div>
-        <p class="text-center text-[14px] font-['Roboto'] text-gray-500 my-5">© 2018 Miniso India, All Rights Reserved | Designed By Delta Web Services</p>
+        <p class="text-center text-[14px] font-roboto text-gray-500 my-5">© 2018 Miniso India, All Rights Reserved | Designed By Delta Web Services</p>
     </section>
 
 </body>
